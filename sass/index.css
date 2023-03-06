@@ -174,8 +174,8 @@ h4 {
 }
 
 .user__fullname {
-  font-weight: 800;
-  font-size: 76px;
+  font-weight: 600;
+  font-size: 66px;
   letter-spacing: -0.04em;
 }
 
@@ -299,8 +299,8 @@ h4 {
 }
 
 .organization {
-  font-weight: 600;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 20px;
   color: var(--orange-color);
 }
 
@@ -366,8 +366,7 @@ h4 {
 .project__link:hover .project__title,
 .project__link:focus .project__title {
   transform: translateY(0%);
-  -webkit-animation: overlay-hover;
-          animation: overlay-hover;
+  animation: overlay-hover;
 }
 
 .preview__text-overlay {
